@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container{
+    padding-top: 2rem;
+    height: 90vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+textarea{
+    height: 20vh;
+    width: 60vw;
+    font-size: 20px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    border: none;
+    border: 2px solid yellow;
+    border-radius: 5px;
+}
+
+p{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
