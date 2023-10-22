@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .nav{
     height: 10vh;
     width: 100vw;
@@ -19,9 +24,9 @@
 .container{
     padding-top: 2rem;
     height: 90vh;
-    width: 100vw;
+    width: 60vw;
     box-sizing: border-box;
-    background-color: rgb(255, 255, 231);
+    background-color: white(255, 255, 231);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +36,7 @@
 
 textarea{
     height: 20vh;
-    width: 60vw;
+    width: 50vw;
     font-size: 20px;
 }
 
@@ -40,8 +45,11 @@ button{
     width: 80px;
     font-size: 20px;
     border: none;
-    border: 2px solid yellow;
+    border: 2px solid rgb(255, 225, 0);
     border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    margin-bottom: 10px;
+
 }
 
 p{
@@ -50,4 +58,24 @@ p{
 
 h1{
     text-align: center;
+}
+
+
+@media(max-width: 600px){
+    .container{
+        width: 100vw;
+    }
+    textarea{
+        width: 90vw;
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .nav{
+        font-size: 15px;
+    }
+    button{
+        font-size: 15px;
+    }
 }
